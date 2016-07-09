@@ -14,3 +14,7 @@ C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Di
 C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.exe
 C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.xml
 C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.pdb
+C:\Users\Steven\Desktop\diccionario\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\Diccionario Beta.exe.config
+C:\Users\Steven\Desktop\diccionario\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.exe
+C:\Users\Steven\Desktop\diccionario\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.xml
+C:\Users\Steven\Desktop\diccionario\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.pdb
