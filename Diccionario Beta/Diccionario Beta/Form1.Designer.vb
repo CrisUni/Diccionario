@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -31,10 +32,20 @@ Partial Class Form1
         Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MetroTextBox1 = New MetroFramework.Controls.MetroTextBox()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.ComputacionBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.DiccionarioDataSet = New Diccionario_Beta.DiccionarioDataSet()
         Me.MetroTextBox2 = New MetroFramework.Controls.MetroTextBox()
         Me.MetroTextBox3 = New MetroFramework.Controls.MetroTextBox()
         Me.MetroTextBox4 = New MetroFramework.Controls.MetroTextBox()
+        Me.ComputacionTableAdapter = New Diccionario_Beta.DiccionarioDataSetTableAdapters.ComputacionTableAdapter()
+        Me.DiccionarioDataSet1 = New Diccionario_Beta.DiccionarioDataSet1()
+        Me.ComputacionBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ComputacionTableAdapter1 = New Diccionario_Beta.DiccionarioDataSet1TableAdapters.ComputacionTableAdapter()
         Me.MenuStrip1.SuspendLayout()
+        CType(Me.ComputacionBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DiccionarioDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DiccionarioDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComputacionBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -42,7 +53,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.EditarToolStripMenuItem, Me.BuscarToolStripMenuItem, Me.ReferenciaToolStripMenuItem, Me.InformacionToolStripMenuItem, Me.AyudaToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(583, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(591, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -115,11 +126,23 @@ Partial Class Form1
         '
         'ListBox1
         '
+        Me.ListBox1.DataSource = Me.ComputacionBindingSource1
+        Me.ListBox1.DisplayMember = "Palabras"
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(12, 112)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(148, 303)
         Me.ListBox1.TabIndex = 2
+        '
+        'ComputacionBindingSource
+        '
+        Me.ComputacionBindingSource.DataMember = "Computacion"
+        Me.ComputacionBindingSource.DataSource = Me.DiccionarioDataSet
+        '
+        'DiccionarioDataSet
+        '
+        Me.DiccionarioDataSet.DataSetName = "DiccionarioDataSet"
+        Me.DiccionarioDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'MetroTextBox2
         '
@@ -127,9 +150,9 @@ Partial Class Form1
         '
         '
         Me.MetroTextBox2.CustomButton.Image = Nothing
-        Me.MetroTextBox2.CustomButton.Location = New System.Drawing.Point(96, 2)
+        Me.MetroTextBox2.CustomButton.Location = New System.Drawing.Point(-3, 2)
         Me.MetroTextBox2.CustomButton.Name = ""
-        Me.MetroTextBox2.CustomButton.Size = New System.Drawing.Size(279, 279)
+        Me.MetroTextBox2.CustomButton.Size = New System.Drawing.Size(0, 0)
         Me.MetroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.MetroTextBox2.CustomButton.TabIndex = 1
         Me.MetroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
@@ -157,9 +180,9 @@ Partial Class Form1
         '
         '
         Me.MetroTextBox3.CustomButton.Image = Nothing
-        Me.MetroTextBox3.CustomButton.Location = New System.Drawing.Point(2, 2)
+        Me.MetroTextBox3.CustomButton.Location = New System.Drawing.Point(-3, 2)
         Me.MetroTextBox3.CustomButton.Name = ""
-        Me.MetroTextBox3.CustomButton.Size = New System.Drawing.Size(-5, -5)
+        Me.MetroTextBox3.CustomButton.Size = New System.Drawing.Size(0, 0)
         Me.MetroTextBox3.CustomButton.Style = MetroFramework.MetroColorStyle.Blue
         Me.MetroTextBox3.CustomButton.TabIndex = 1
         Me.MetroTextBox3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
@@ -211,11 +234,29 @@ Partial Class Form1
         Me.MetroTextBox4.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.MetroTextBox4.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
         '
+        'ComputacionTableAdapter
+        '
+        Me.ComputacionTableAdapter.ClearBeforeFill = True
+        '
+        'DiccionarioDataSet1
+        '
+        Me.DiccionarioDataSet1.DataSetName = "DiccionarioDataSet1"
+        Me.DiccionarioDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'ComputacionBindingSource1
+        '
+        Me.ComputacionBindingSource1.DataMember = "Computacion"
+        Me.ComputacionBindingSource1.DataSource = Me.DiccionarioDataSet1
+        '
+        'ComputacionTableAdapter1
+        '
+        Me.ComputacionTableAdapter1.ClearBeforeFill = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(583, 436)
+        Me.ClientSize = New System.Drawing.Size(591, 436)
         Me.Controls.Add(Me.MetroTextBox4)
         Me.Controls.Add(Me.MetroTextBox3)
         Me.Controls.Add(Me.MetroTextBox2)
@@ -232,6 +273,10 @@ Partial Class Form1
         Me.Text = "Diccionario"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.ComputacionBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DiccionarioDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DiccionarioDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComputacionBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -249,4 +294,10 @@ Partial Class Form1
     Friend WithEvents MetroTextBox2 As MetroFramework.Controls.MetroTextBox
     Friend WithEvents MetroTextBox3 As MetroFramework.Controls.MetroTextBox
     Friend WithEvents MetroTextBox4 As MetroFramework.Controls.MetroTextBox
+    Friend WithEvents DiccionarioDataSet As DiccionarioDataSet
+    Friend WithEvents ComputacionBindingSource As BindingSource
+    Friend WithEvents ComputacionTableAdapter As DiccionarioDataSetTableAdapters.ComputacionTableAdapter
+    Friend WithEvents DiccionarioDataSet1 As DiccionarioDataSet1
+    Friend WithEvents ComputacionBindingSource1 As BindingSource
+    Friend WithEvents ComputacionTableAdapter1 As DiccionarioDataSet1TableAdapters.ComputacionTableAdapter
 End Class
