@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\Diccionario Beta.exe.config
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\Diccionario Beta.exe
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\Diccionario Beta.pdb
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\Diccionario Beta.xml
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\MetroFramework.Design.dll
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\MetroFramework.dll
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.vbprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario_Beta.Form1.resources
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario_Beta.Resources.resources
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.vbproj.GenerateResource.Cache
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.exe
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.xml
+C:\Users\User\Desktop\Diccionario\Diccionario Beta\Diccionario Beta\obj\Debug\Diccionario Beta.pdb
